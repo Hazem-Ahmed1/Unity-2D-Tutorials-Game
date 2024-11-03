@@ -3,16 +3,23 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - OneWayPlatform
+  - EnemyWarriorAttack
+  - Arrow
+  - Cash
+  - Heal
+  - Guide
+  - LightingPoint
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
-  - ground
-  - 
+  - Player
+  - Enemy
   - 
   - 
   - 
@@ -40,4 +47,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1620258749
+    locked: 0
+  - name: Decoration
+    uniqueID: 589041969
+    locked: 0
+  - name: Ground
+    uniqueID: 2710679479
+    locked: 0
+  - name: Player
+    uniqueID: 541574055
     locked: 0
